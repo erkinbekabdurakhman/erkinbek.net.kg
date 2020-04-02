@@ -1,0 +1,48 @@
+/* 
+.App-header {
+background-color: #282c34;
+display: flex;
+position: fixed;
+top:0;
+left: 0;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+transition: 0.6s;
+padding: 0px;
+z-index: 100000;
+}
+.App-header .sticky{
+padding: 5px 100px;
+background: #fff;
+}
+.App-header .logo{
+position: relative;
+margin-left: 2rem;
+font-weight: 700;
+color: #fff;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+}
+.App-header ul{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.App-header ul li {
+position: relative;
+list-style: none;
+}
+.App-header ul li a{
+position: relative;
+margin: 0 20px;
+padding-top: 2rem;
+text-decoration: none;
+color: #fff;
+letter-spacing: 2px;
+font-size: 20px;
+transition: 0.6s;
+}
+*/

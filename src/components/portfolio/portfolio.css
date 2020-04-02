@@ -1,0 +1,53 @@
+.projects {
+background-color: #a3a375 !important;
+}
+.counter-section{
+background-color: #a3a375 !important;
+background-size: cover;
+background-position: center;
+}
+.counter-section{
+margin:0;
+color: #fff;
+}
+.icon-box {
+border: 1px solid #fff;
+height: 100px;
+width: 100px;
+margin: 60px auto;
+transform: rotate(45deg);
+}
+.icon-box .fa {
+font-size: 40px;
+margin: 25px auto;
+color: #fff;
+transform: rotate(-45deg);
+}
+.counter-box p{
+font-size: 20px;
+}
+.counter-box .counter {
+font-size: 80px;
+}
+.service-box {
+margin-bottom: 20px;
+box-shadow:0 0 5px 0 #fff ;
+padding: 15px;
+position: relative;
+}
+.service-box p {
+text-align: left;
+}
+.service-box a {
+position: relative;
+margin: 20px 0 0;
+padding: 10px 20px;
+border: 1px solid #fff;
+display: inline-block;
+color: #fff;
+transition: 0.5s;
+}
+.service-box a:hover{
+color: #000;
+background-color: #fff;
+}

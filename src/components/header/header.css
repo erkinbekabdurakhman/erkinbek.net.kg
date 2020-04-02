@@ -1,0 +1,22 @@
+/*header-style*/
+.header {
+background-color: #000;
+}
+.header img {
+margin-left: 2rem;
+}
+.header #navbarNavAltMarkup a {
+color: #fff;
+font-size: 20px;
+text-align: right;
+}
+.header .navbar-light .navbar-toggler {
+color: #fff;
+background-color: #fff;
+}
+.header #navbarNavAltMarkup a:hover {
+background-color: #87ceeb;
+}
+.header #navbarNavAltMarkup a:visited {
+background-color: #87ceeb;
+}

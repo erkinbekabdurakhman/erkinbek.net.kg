@@ -1,0 +1,50 @@
+.contact {
+background-image: linear-gradient(to right, #a517ba, #5f1782);
+margin-top: 0px !important;
+}
+.register-left {
+text-align:center;
+color: #fff;
+padding: 30px;
+}
+.register-left {
+padding: 20px 20px 0;
+}
+.register-left ul,li {
+list-style: none !important;
+padding-left: 5px;
+margin-top: 1rem;
+}
+.register-left i {
+font-size: 40px;
+}
+.register-left p{
+text-align: center;
+font-size: 22px;
+}
+.register-right {
+border: none;
+background: #f8f8f8;
+border-top-left-radius: 15% 40%;
+border-bottom-left-radius: 15% 40%;
+padding: 50px;
+margin:20px 0px 20px 0px;
+}
+.register-right h3 {
+text-align: center;
+margin-bottom: 10px;
+color: #555;
+}
+.register-form {
+padding: 30px;
+}
+.register-right .btn-primary {
+float: right;
+border-radius: 1.5rem;
+border: none;
+width: 120px;
+font-weight: 600;
+color:#000;
+margin-top: 20px;
+padding: 10px;
+}

@@ -1,0 +1,26 @@
+.container h3 {
+text-align: center;
+color: #000;  
+margin: 15px 15px;
+}
+.row h5 {
+margin:10px 10px;
+text-align: center;
+color: #000;
+}
+.row p {
+color: #000;  
+margin-top: 15px;
+}
+.col-md-4 img {
+margin: 15px 115px 15px 115px;
+padding-right: 0px;
+width: 40%;
+object-position: center
+}
+#html-logo {
+padding-bottom: 2rem;
+}
+#mysql-logo {
+padding-bottom: 2.9rem;
+}
