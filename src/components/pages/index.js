@@ -1,3 +1,3 @@
-import {HomePage, AboutmePage, SkillsPage, PortfolioPage, ContactsPage} from './pages.js';
+import {HomePage, AboutmePage, SkillsPage, PortfolioPage, ContactsPage, BlogPage} from './pages.js';
 
-export {HomePage, AboutmePage, SkillsPage, PortfolioPage, ContactsPage};
+export {HomePage, AboutmePage, SkillsPage, PortfolioPage, ContactsPage, BlogPage};

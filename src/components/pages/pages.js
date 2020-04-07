@@ -6,6 +6,7 @@ import Aboutme from '../aboutme';
 import Skills from '../skills';
 import Portfolio from '../portfolio';
 import Contacts from '../contact';
+import Blog from '../blog';
 
 const HomePage = () => {
     return(
@@ -56,4 +57,15 @@ const ContactsPage = () => {
         </div>
     )
 }
-export {HomePage, AboutmePage, SkillsPage, PortfolioPage, ContactsPage};
+
+const BlogPage = () => {
+    return(
+        <div>
+            <Header />
+            <Blog />
+            <Footer />
+        </div>
+    )
+}
+
+export {HomePage, AboutmePage, SkillsPage, PortfolioPage, ContactsPage, BlogPage};

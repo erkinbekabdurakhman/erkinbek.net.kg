@@ -67,7 +67,7 @@ class Skills extends React.Component {
                         </div>
                         <div className="col-md-4">
                             <img src={icon4} alt="innovations" />
-                            <h5>Testin Fundamentals</h5>
+                            <h5>Testing Fundamentals</h5>
                             <p>
                                 <b>Unit Testing</b> is a level of software testing where individual units/ components
                                 of a software are tested. The purpose is to validate that each unit of the software
