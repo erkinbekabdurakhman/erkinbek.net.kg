@@ -7,6 +7,7 @@ import Skills from '../skills';
 import Portfolio from '../portfolio';
 import Contacts from '../contact';
 import Blog from '../blog';
+import ExtraFooter from '../extrafooter';
 
 const HomePage = () => {
     return(
@@ -32,7 +33,7 @@ const SkillsPage = () => {
         <div>
             <Header />
             <Skills />
-            <Footer />
+            <ExtraFooter />
         </div>
         
     )
