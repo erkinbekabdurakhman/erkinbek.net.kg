@@ -40,7 +40,7 @@ class Porftfolio extends React.Component {
                                         with delivery. And also you will be known nearest games
                                         which hold on in Kyrgyzstan.It is very usefull who 
                                         interests to alaman ulak,leilek ulak, kokboru and horses.</p><br/>
-                                    <a href="/#">Read more</a>
+                                    <a href="https://dreamy-lamport-9435b6.netlify.com">Read more</a>
                                     
                             </div>
                         </div>
@@ -54,7 +54,7 @@ class Porftfolio extends React.Component {
                                         through modern browsers and through free applications.
                                         The application notifies about current events
                                         in schools.</p>
-                                    <a href="/#">Read More</a>
+                                    <a href="https://youthful-morse-e629a4.netlify.com">Read More</a>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -64,7 +64,7 @@ class Porftfolio extends React.Component {
                                 To control behavior of Snake use W - to turn up, A - to turn left, S - to turn down,
                                 D - to turn right. Game was written in a purpose of learning JS.
                                 It is possible only laptop browsers.Be shure that you switched your keybord into EN.</p>
-                            <a href="/#">Read More</a>
+                            <a href="https://suspicious-torvalds-5cab1a.netlify.com">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ class Porftfolio extends React.Component {
                                 The administrator can manage all functionalities. Not only every user can
                                 "buzz", but also can edit and delete posted message. Used technologies:
                                 HTML, CSS, Express.js, MySQL, Bootstrap, JQuery.</p>
-                                <a href="/#">Read more</a>
+                                <a href="http://157.230.105.74">Read more</a>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -87,7 +87,7 @@ class Porftfolio extends React.Component {
                                         I used Redux library. The style of page supported by Bootstrap
                                         elements. The most page of e-commerce websites begin with
                                         such kind of functionalities.</p>
-                                    <a href="/#">Read More</a>
+                                    <a href="https://vigorous-leavitt-d91d0f.netlify.com">Read More</a>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -97,8 +97,8 @@ class Porftfolio extends React.Component {
                                 was developed by Yura Bura. He is my online mentor at Udemy.
                                 I have got his React Redux course. I tried to write it by
                                 myself in a purpose of learning. The production code
-                                was deployed by PAATH platform Netlify.</p>
-                            <a href="/#">Read More</a>
+                                was deployed by PATH platform Netlify.</p>
+                            <a href="https://inspiring-bassi-052f00.netlify.com">Read More</a>
                             </div>
                         </div>
                     </div>
