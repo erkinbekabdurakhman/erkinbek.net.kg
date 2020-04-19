@@ -98,7 +98,7 @@ class Porftfolio extends React.Component {
                                 I have got his React Redux course. I tried to write it by
                                 myself in a purpose of learning. The production code
                                 was deployed by PATH platform Netlify.</p>
-                            <a href="https://inspiring-bassi-052f00.netlify.com">Read More</a>
+                            <a href="https://vigilant-lovelace-341bae.netlify.app">Read More</a>
                             </div>
                         </div>
                     </div>
