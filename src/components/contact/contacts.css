@@ -18,9 +18,16 @@ margin-top: 1rem;
 .register-left i {
 font-size: 40px;
 }
+.register-left h3{
+    color: #fff;
+}
 .register-left p{
 text-align: center;
 font-size: 22px;
+color: #fff;
+}
+.register-left a {
+    color:#fff;
 }
 .register-right {
 border: none;

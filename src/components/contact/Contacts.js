@@ -56,7 +56,7 @@ class Contact extends React.Component {
                                         </li>
                                         <li>
                                             <i className="fa fa-envelope-o"></i>
-                                            <p>Erkinbek.abdurahman2@gmail.com</p>
+                                            <p>erkinbek.abdurahman2@gmail.com</p>
                                         </li>
                                         <li>
                                             <i className="fa fa-map-marker"></i>
@@ -66,7 +66,7 @@ class Contact extends React.Component {
                                             <p>+996 770 38 72 34</p></li>
                                         <li>
                                             <i className="fa fa-github"></i>
-                                            <p>Erkin649</p>
+                                            <p><a href="https://github.com/Erkin649">Erkin649</a></p>
                                         </li>
                                     </ul>
                                 </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../header';
-import Main from '../main';
+//import Main from '../main';
 import Footer from '../footer';
 import Aboutme from '../aboutme';
 import Skills from '../skills';
@@ -8,12 +8,13 @@ import Portfolio from '../portfolio';
 import Contacts from '../contact';
 import Blog from '../blog';
 import ExtraFooter from '../extrafooter';
+import Carousel from '../carousel';
 
 const HomePage = () => {
     return(
         <div>
             <Header />
-            <Main />
+            <Carousel />
             <Footer />
         </div>
     )
