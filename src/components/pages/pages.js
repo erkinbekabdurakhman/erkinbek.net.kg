@@ -9,12 +9,14 @@ import Contacts from '../contact';
 import Blog from '../blog';
 import ExtraFooter from '../extrafooter';
 import Carousel from '../carousel';
+import VerticalLinearStepper from '../stepper';
 
 const HomePage = () => {
     return(
         <div>
             <Header />
             <Carousel />
+            <VerticalLinearStepper />
             <Footer />
         </div>
     )

@@ -35,7 +35,7 @@ class Carousel extends React.Component{
                             <div className="row">
                             <div className="col-md-6">
                                     <div className="img-box">
-                                        <img src={icon12} alt="mobile-app" />
+                                        <img src={icon12} alt="mobile application" />
                                     </div>
                                 </div>
                                 <div className="col-md-6">

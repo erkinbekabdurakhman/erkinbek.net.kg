@@ -15,7 +15,7 @@ class Aboutme extends React.Component {
                 <h3>Principles</h3>
                     <div className="row">
                         <div className="col-md-4">
-                            <img src={icon} alt="out-box" />
+                            <img src={icon} alt="out-box svg image" />
                                 <h5>«Creativity»</h5> 
                             <p>Creativity is to think “Out of the box”. The ability to be surprised at the new and
                             turn this surprise into innovation in services and business.Concepts, grammar, ideas, 
@@ -26,7 +26,7 @@ class Aboutme extends React.Component {
                                 that can turn into whole new areas of business. I need people who turn dreams into reality.</p>
                         </div>
                         <div className="col-md-4">
-                            <img src={icon1} alt="brainstorm" />
+                            <img src={icon1} alt="brainstorm svg" />
                             <h5>«Will»</h5>  
                             <p>Will - The ability to make choices and take responsibility.I understand responsibility 
                             as the ability to perform real Actions (with a capital letter) and be responsible for
@@ -37,7 +37,7 @@ class Aboutme extends React.Component {
                                 always loses. Persistently trying to solve the problem gets a chance.</p>
                         </div>
                         <div className="col-md-4">
-                            <img src={icon2} alt="lightbulb" />
+                            <img src={icon2} alt="lightbulb svg" />
                             <h5>«Reasonable Doubt»</h5>  
                             <p>Reasonable doubt - the ability to see from a different point of view, 
                             subject to reasonable doubt, using the facts.We make the most efficient 
@@ -52,7 +52,7 @@ class Aboutme extends React.Component {
                 <h3>Philosophy</h3>
                     <div className="row">
                         <div className="col-md-4">
-                            <img src={icon3} alt="customer-service" />
+                            <img src={icon3} alt="customer-service image" />
                             <h5>«Customer Orientation»</h5>
                             <p>I am really interested in my Clients, considering that the Client is the most 
                                 important person to me. I see satisfaction of my needs within the satisfaction of 
@@ -61,14 +61,14 @@ class Aboutme extends React.Component {
                                 definition of quality criteria for each client, and I try to even surpass them a little.</p>
                         </div>
                         <div className="col-md-4">
-                            <img src={icon4} alt="innovations" />
+                            <img src={icon4} alt="innovation image" />
                             <h5>«Innovation»</h5>
                             <p>I value technology that allows you to create new things. I catch the new, I am surprised 
                                 at the new and apply it in my work. I am focused on the active use of the most modern "know-how",
                                 increasing my effectiveness. I open up new knowledge and create new markets, benefiting my country.</p>
                         </div>
                         <div className="col-md-4">
-                            <img src={icon5} alt="meeting" />
+                            <img src={icon5} alt="meeting svg image" />
                             <h5>«Liberalism»</h5>
                             <p>I value the ability to reach an agreement on the basis of consensus, agreeing on a common meaning of
                                 concepts and taking into account the maximum number of nuances, and then follow this agreement, just

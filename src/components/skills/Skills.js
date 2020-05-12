@@ -15,7 +15,7 @@ class Skills extends React.Component {
                 <h3>Top Skills</h3>
                     <div className="row">
                         <div className="col-md-4">
-                            <img id="html-logo" src={icon} alt="out-box" />
+                            <img id="html-logo" src={icon} alt="html logo" />
                                 <h5>HTML</h5> 
                             <p>As a Web Developer I understand the basics of coding and markup language. HyperText Markup 
                                 Language (HTML) is the standard of all markup languages.HTML forms practically every web page 
@@ -24,7 +24,7 @@ class Skills extends React.Component {
                             </p>
                         </div>
                         <div className="col-md-4">
-                            <img src={icon1} alt="brainstorm" />
+                            <img src={icon1} alt="brainstorm logo" />
                             <h5>CSS</h5>  
                             <p>
                                 Cascading Style Sheets (CSS) interpret documents written in a markup language. They’re a
@@ -36,7 +36,7 @@ class Skills extends React.Component {
                             </p>
                         </div>
                         <div className="col-md-4">
-                            <img src={icon2} alt="lightbulb" />
+                            <img src={icon2} alt="lightbulb log" />
                             <h5>JavaScript</h5>  
                             <p>
                                 JavaScript is a higher level programming language. It makes websites more interactive and functional.
@@ -53,7 +53,7 @@ class Skills extends React.Component {
             <section className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <img id="mysql-logo" src={icon3} alt="customer-service" />
+                            <img id="mysql-logo" src={icon3} alt="mysql logo" />
                             <h5>Data Base</h5>
                             <p>
                                 <b>MySQL</b> is a relational database management system based on SQL – Structured Query 
@@ -66,7 +66,7 @@ class Skills extends React.Component {
                             </p>
                         </div>
                         <div className="col-md-4">
-                            <img src={icon4} alt="innovations" />
+                            <img src={icon4} alt="innovation logo" />
                             <h5>Testing Fundamentals</h5>
                             <p>
                                 <b>Unit Testing</b> is a level of software testing where individual units/ components
@@ -79,7 +79,7 @@ class Skills extends React.Component {
                             </p>
                         </div>
                         <div className="col-md-4">
-                            <img src={icon5} alt="meeting" />
+                            <img src={icon5} alt="meeting logo" />
                             <h5>Framework Review</h5>
                             <p>
                                 Many apps need user signup, password reset, authorization, API’s,
