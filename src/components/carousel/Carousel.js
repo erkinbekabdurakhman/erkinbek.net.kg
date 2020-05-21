@@ -2,7 +2,7 @@ import React from 'react';
 import './carousel.css';
 import icon10 from '../images/img10.png';
 import icon12 from '../images/img12.png';
-
+import icon14 from '../images/img14.png';
 
 class Carousel extends React.Component{
     render(){
@@ -19,7 +19,6 @@ class Carousel extends React.Component{
                                         an interesting, memorable and engaging website with user
                                         friendliness interface.
                                     </p>
-                                    <button type="button">Let's talk</button>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="img-box">
@@ -33,7 +32,7 @@ class Carousel extends React.Component{
                     <div className="carousel-item slider-two">
                         <div className="container">
                             <div className="row">
-                            <div className="col-md-6">
+                                <div className="col-md-6">
                                     <div className="img-box">
                                         <img src={icon12} alt="mobile application" />
                                     </div>
@@ -41,11 +40,34 @@ class Carousel extends React.Component{
                                 <div className="col-md-6">
                                     <h1>Building Mobile Application</h1>
                                     <p>With a mobile app, we could automate many processes,
-                                        such as classes overview, booking from mobile and important service updates, while
-                                        enabling easy customer feedback and one-to-one chat. I will make a great looking,
-                                        cross-platform app with using latest technology. 
+                                        such as classes overview, booking from mobile and important
+                                        service updates, while enabling easy customer feedback and 
+                                        one-to-one chat. I will make a great looking, cross-platform app
+                                        with using latest technology. 
                                     </p>
-                                    <button type="button">Let's talk</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div className="carousel-item slider-three">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <h1>Prototyping UI / UX</h1>
+                                    <p>Prototyping tools allow designers and clients
+                                        to collaborate better while being in the same 
+                                        context rather than having conflicting perspectives. 
+                                        The clients get a visual overview of what is actually 
+                                        going to be made. It helps teams to build understanding, 
+                                        to explore options and barriers that only become visible 
+                                        when you build and test something.
+                                    </p>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="img-box">
+                                        <img src={icon14} alt="mobile application" />
+                                    </div>
                                 </div>
                             </div>
                         </div> 

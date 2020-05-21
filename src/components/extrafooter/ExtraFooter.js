@@ -10,8 +10,7 @@ class ExtraFooter extends React.Component{
                         <div className="col-md-4">
                             <h5>Qualificatians: <i className="fa fa-graduation-cap"></i></h5>
                             <p>BA of Social Work</p>
-                            <button type="button" className="btn btn-primary">Get my CV</button><br/>
-                            <button type="button" className="btn btn-primary">Hire me</button>
+                            <button type="button" className="btn btn-primary">Get my CV</button>
                         </div>
                         <div className="col-md-4">
                             <h5>Follow me: <i className="fa fa-users"></i></h5>

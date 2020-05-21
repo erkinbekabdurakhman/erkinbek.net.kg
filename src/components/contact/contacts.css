@@ -27,7 +27,11 @@ font-size: 22px;
 color: #fff;
 }
 .register-left a {
-    color:#fff;
+color:#fff;
+}
+.register-left a:hover {
+font-size: 20px;
+color:#fff;
 }
 .register-right {
 border: none;

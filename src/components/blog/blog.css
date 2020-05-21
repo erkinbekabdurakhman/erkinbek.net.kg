@@ -30,7 +30,7 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 .blog p {
 color: #fff;
-font-weight: 800;
+font-weight: 600;
 font-size: 20px;
 font-family: 'Source Sans Pro', sans-serif;
 }
@@ -41,9 +41,9 @@ font-size: 20px;
 font-family: 'Source Sans Pro', sans-serif;
 }
 .paragraph span{
-font-size: 25px;
+font-size: 20px;
 color: #fff;
-font-weight: 800;
+font-weight: bold;
 font-family: 'Source Sans Pro', sans-serif;
 }
 

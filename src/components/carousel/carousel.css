@@ -1,31 +1,32 @@
 .carousel-item {
-    height: 100vh;
+height: 90vh;
 }
 .img-box {
-    width: 550px;
-    justify-content: center;
-    align-content: center;
+width: 550px;
+justify-content: center;
+align-content: center;
 }
 .img-box img {
-    width: 100%;
+width: 100%;
 }
 .slide-one {
-    background: #b0c6f5;
+background: #323232;
 }
 .carousel-item .row{
-    margin: 12% 0;
+margin: 12% 0;
 }
 .carousel-item h1{
-    margin-top: 40px;
-    font-weight: bold;
-    color: #fff;
-    font-family: sans-serif;
+margin-top: 40px;
+font-weight: bold;
+color: #fff;
+font-family: sans-serif;
 }
 .carousel-item p{
-    margin: 30px 0 50px;
-    font-size: 18px;
-    color: #fff;
+margin: 30px 0 50px;
+font-size: 18px;
+color: #fff;
 }
+/*<button type="button">Let's talk</button>
 .carousel-item button {
     padding: 8px 20px;
     background: #0c5ce3;
@@ -37,13 +38,19 @@
 }
 .carousel-item button a{
     color: #fff;
-}
+}*/
 .slider-two {
-    background: #6c757d;
+background: #6c757d;
 }
 .slider-two h1, .slider-two p{
-    color: #feb154;
-    font-family: sans-serif;
+color: #feb154;
+font-family: sans-serif;
+}
+.slider-three {
+background: #084177;
+}
+.slider-three img {
+width:80%;
 }
 @media (max-width: 1024px) {
     .carousel-item {
@@ -64,7 +71,10 @@
         color: #fff;
         font-family: sans-serif;
     }
-    .carousel-item button {
+    .slider-three img {
+        width:55%;
+    }
+    /* .carousel-item button {
         padding: 5px 17px;
         background: #0c5ce3;
         border: 0;
@@ -73,11 +83,11 @@
         color: #fff;
         font-size: 13px;
         font-family: sans-serif;
-    }
+    } */
 }
 @media (max-width: 667px) {
     .carousel-item {
-        height: 120vh;
+        height: 90vh;
     }
     .img-box img {
         width: 60%;
@@ -94,7 +104,10 @@
         color: #fff;
         font-family: sans-serif;
     }
-    .carousel-item button {
+    .slider-three img {
+        width: 50%;
+    }
+    /* .carousel-item button {
         padding: 5px 17px;
         background: #0c5ce3;
         border: 0;
@@ -103,5 +116,5 @@
         color: #fff;
         font-size: 13px;
         font-family: sans-serif;
-    }
+    } */
 }

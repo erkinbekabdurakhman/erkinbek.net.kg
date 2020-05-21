@@ -54,7 +54,7 @@ class Porftfolio extends React.Component {
                                         through modern browsers and through free applications.
                                         The application notifies about current events
                                         in schools.</p>
-                                    <a href="https://youthful-morse-e629a4.netlify.com">Read More</a>
+                                    <a href="https://github.com/Erkin649/HTML-CSS/tree/master/kundoluk">Read More</a>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -76,7 +76,7 @@ class Porftfolio extends React.Component {
                                 The administrator can manage all functionalities. Not only every user can
                                 "buzz", but also can edit and delete posted message. Used technologies:
                                 HTML, CSS, Express.js, MySQL, Bootstrap, JQuery.</p>
-                                <a href="http://157.230.105.74">Read more</a>
+                                <a href="https://github.com/Erkin649/buzzle-back">Read more</a>
                             </div>
                         </div>
                         <div className="col-md-4">

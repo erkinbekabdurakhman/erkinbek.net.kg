@@ -63,7 +63,8 @@ class Contact extends React.Component {
                                             <p>Kyrgyzstan, Bishkek</p></li>
                                         <li>
                                             <i className="fa fa-whatsapp"></i>
-                                            <p>+996 770 38 72 34</p></li>
+                                            <p><a href="https://wa.me/996770387234">+996 770 38 72 34</a></p>
+                                        </li>
                                         <li>
                                             <i className="fa fa-github"></i>
                                             <p><a href="https://github.com/Erkin649">Erkin649</a></p>

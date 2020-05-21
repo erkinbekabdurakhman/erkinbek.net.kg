@@ -16,7 +16,6 @@ const HomePage = () => {
         <div>
             <Header />
             <Carousel />
-            <VerticalLinearStepper />
             <Footer />
         </div>
     )
@@ -27,6 +26,7 @@ const AboutmePage = () => {
         <div>
             <Header />
             <Aboutme />
+            <VerticalLinearStepper />
             <Footer />
         </div>
     )
