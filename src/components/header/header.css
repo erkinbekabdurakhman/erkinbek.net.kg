@@ -1,22 +1,30 @@
 /*header-style*/
 .header {
-background-color: #000;
+    background-color: #323232;
 }
 .header img {
-margin-left: 2rem;
+    margin-left: 2rem;
+}
+.header .fa-bars {
+    color: #323232;
+    font-size: 32px;
+}
+.navbar-light .navbar-brand {
+    color: #fff !important;
+    margin-left: 1.5rem;
 }
 .header #navbarNavAltMarkup a {
-color: #fff;
-font-size: 20px;
-text-align: right;
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
 }
 .header .navbar-light .navbar-toggler {
-color: #fff;
-background-color: #fff;
+    color: #fff;
+    background-color: #fff;
 }
 .header #navbarNavAltMarkup a:hover {
-background-color: #87ceeb;
+    background-color: #6c757d;
 }
 .header #navbarNavAltMarkup a:visited {
-background-color: #87ceeb;
+    background-color: #6c757d;
 }

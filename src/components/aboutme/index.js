@@ -1,3 +1,3 @@
-import Aboutme from './Aboutme.js';
+import About from './About.js';
 
-export default Aboutme;
+export default About;

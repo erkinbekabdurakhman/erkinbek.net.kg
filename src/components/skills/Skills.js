@@ -1,100 +1,61 @@
 import React from 'react';
 import './skills.css';
-import icon from '../images/html-logo.png';
-import icon1 from '../images/css-logo.png';
-import icon2 from '../images/js-logo.png';
-import icon3 from '../images/sql-logo.png';
-import icon4 from '../images/testing-logo.png';
-import icon5 from '../images/react-logo.png';
 
-class Skills extends React.Component {
-    render(){
-        return(
-            <>
-            <section className="container" >
-                <h3>Top Skills</h3>
-                    <div className="row">
-                        <div className="col-md-4">
-                            <img id="html-logo" src={icon} alt="html logo" />
-                                <h5>HTML</h5> 
-                            <p>As a Web Developer I understand the basics of coding and markup language. HyperText Markup 
-                                Language (HTML) is the standard of all markup languages.HTML forms practically every web page 
-                                on the Internet as we know it. How a website functions depends on the way a developer writes 
-                                the HTML.But for your website to actually display as a website, you’ll rely on CSS.
-                            </p>
-                        </div>
-                        <div className="col-md-4">
-                            <img src={icon1} alt="brainstorm logo" />
-                            <h5>CSS</h5>  
-                            <p>
-                                Cascading Style Sheets (CSS) interpret documents written in a markup language. They’re a
-                                more stylized presentation of the HTML language.CSS also describes how an HTML document 
-                                will look visually as a website. It lays the bricks for a website’s font, colors, and 
-                                overall layout.Think of it this way: HTML builds the skeleton of a website. CSS gives
-                                the website its style and look.The most basic web developer skills call for a mastery 
-                                of HTML and CSS.
-                            </p>
-                        </div>
-                        <div className="col-md-4">
-                            <img src={icon2} alt="lightbulb log" />
-                            <h5>JavaScript</h5>  
-                            <p>
-                                JavaScript is a higher level programming language. It makes websites more interactive and functional.
-                                It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side
-                                script to interact with the user and make dynamic pages. It is an interpreted programming language
-                                with object-oriented capabilities.Client-side JavaScript is the most common form of the language.
-                                The script should be included in or referenced by an HTML document for the code to be interpreted
-                                by the browser.It means that a web page need not be a static HTML, but can include programs
-                                that interact with the user, control the browser, and dynamically create HTML content.
-                            </p>
-                        </div>  
+const Skills = () => {
+    return(
+        <section id="about">
+            <div className="contain mt-5">
+                <div className="row container">
+                    <div className="col-md-6 col-12 left my-auto" id="about_left">
+                        <h2 className="text-left mb-4">
+                        <strong>Skills On Which I'm Working</strong>
+                        </h2>
+                        <p className="para col-md-11 col-12 px-0">
+                        I value technology that allows me to create new things. I catch the new, I am surprised 
+                        at the new and apply it in my work. I am focused on the active use of the most modern "know-how",
+                        increasing my effectiveness. I open up new knowledge and create new markets, benefiting my customers.
+                        </p>
                     </div>
-            </section>
-            <section className="container">
-                    <div className="row">
-                        <div className="col-md-4">
-                            <img id="mysql-logo" src={icon3} alt="mysql logo" />
-                            <h5>Data Base</h5>
-                            <p>
-                                <b>MySQL</b> is a relational database management system based on SQL – Structured Query 
-                                Language. The application is used for a wide range of purposes, including data warehousing,
-                                e-commerce, and logging applications. The most common use for mySQL however, is for the
-                                purpose of a web database. <b>MongoDB</b> is an open source database management system
-                                (DBMS) that uses a document-oriented database model which supports various forms 
-                                of data. ... Instead of using tables and rows as in relational databases, the MongoDB
-                                    architecture is made up of collections and documents.
-                            </p>
+                    <div className="col-md-6 col-12 mt-md-0 mt-5" id="about_right">
+                        <p className="tex"><strong>HTML</strong></p>
+                        <div className="progress">
+                            <div className="progress-bar a1"></div>
                         </div>
-                        <div className="col-md-4">
-                            <img src={icon4} alt="innovation logo" />
-                            <h5>Testing Fundamentals</h5>
-                            <p>
-                                <b>Unit Testing</b> is a level of software testing where individual units/ components
-                                of a software are tested. The purpose is to validate that each unit of the software
-                                performs as designed. A unit is the smallest testable part of any software. 
-                                It usually has one or a few inputs and usually a single output. In procedural
-                                programming, a unit may be an individual program, function, procedure, etc.
-                                In object-oriented programming, the smallest unit is a method, which may belong 
-                                to a base/ super class, abstract class or derived/ child class.
-                            </p>
+
+                        <p className="tex"><strong>CSS</strong></p>
+                        <div className="progress">
+                            <div className="progress-bar a1"></div>
                         </div>
-                        <div className="col-md-4">
-                            <img src={icon5} alt="meeting logo" />
-                            <h5>Framework Review</h5>
-                            <p>
-                                Many apps need user signup, password reset, authorization, API’s,
-                                logging, database persistence, sending emails, payment processing, 
-                                metrics gathering, deployment, input validation, … We would like to
-                                implement them once and reuse them if possible. A framework means
-                                even the integration of those implementations is trivial. 
-                                A framework can integrate security features into its operation 
-                                and aggregate bug fixing efforts to make something more robust.
-                            </p>
+
+                        <p className="tex"><strong>JS</strong></p>
+                        <div className="progress">
+                            <div className="progress-bar a5"></div>
                         </div>
-                    </div>    
-            </section>
-            </> 
-        )
-    }
+
+                        <p className="tex"><strong>REACT</strong></p>
+                        <div className="progress">
+                            <div className="progress-bar a4"></div>
+                        </div>
+
+                        <p className="tex"><strong>React Native</strong></p>
+                        <div className="progress">
+                            <div className="progress-bar a3"></div>
+                        </div>
+
+                        <p className="tex"><strong>Node.js</strong></p>
+                        <div className="progress">
+                            <div className="progress-bar a4"></div>
+                        </div>
+
+                        <p className="tex"><strong>MySQL & MongoDB</strong></p>
+                        <div className="progress">
+                            <div className="progress-bar a3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
 }
+
 export default Skills;

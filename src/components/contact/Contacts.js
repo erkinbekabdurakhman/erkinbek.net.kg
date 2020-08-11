@@ -60,41 +60,40 @@ class Contact extends React.Component {
                                         </li>
                                         <li>
                                             <i className="fa fa-map-marker"></i>
-                                            <p>Kyrgyzstan, Bishkek</p></li>
-                                        <li>
-                                            <i className="fa fa-whatsapp"></i>
-                                            <p><a href="https://wa.me/996770387234">+996 770 38 72 34</a></p>
+                                            <p>Kyrgyzstan, Bishkek</p>
                                         </li>
                                         <li>
                                             <i className="fa fa-github"></i>
-                                            <p><a href="https://github.com/Erkin649">Erkin649</a></p>
+                                            <p><a href="https://github.com/erkinbekabdurakhman">Erkinbek Abdurakhman</a></p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="col-md-7 register-right">
-                                    <h3>Question and Answers</h3>
+                                    <h3>Let's Talk</h3>
                                     <div className="register-form">
                                         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)}>
                                             <div className="form-group">
                                                 <input name="name" id="name"  value={this.state.name}
                                                 onChange={this.handleChange.bind(this, 'name')}
-                                                 type="text" className="form-control" placeholder="Your name" />
+                                                 type="text" className="form-control" placeholder="Your name"
+                                                 required />
                                             </div>
                                             <div className="form-group">
                                                 <input name="number" id="number" value={this.state.number}
                                                 onChange={this.handleChange.bind(this, 'number')}
-                                                type="tel" className="form-control" placeholder="Your number" />
+                                                type="tel" className="form-control" placeholder="Your number"
+                                                required />
                                             </div>
                                             <div className="form-group">
                                                 <input name="email" id="email" value={this.state.email} type="email" 
                                                 onChange={this.handleChange.bind(this, 'email')}
-                                                className="form-control" placeholder="Your email" />
+                                                className="form-control" placeholder="Your email"
+                                                required />
                                             </div>
                                             <div className="form-group">
                                                 <textarea name="message" id="message"  value={this.state.message} 
                                                  onChange={this.handleChange.bind(this, 'message')}
                                                 className="md-textarea form-control" rows="5">
-
                                                 </textarea>
                                             </div>
                                             <button type="submit"  value="Send" className="btn btn-primary">Send</button>

@@ -1,29 +1,81 @@
-.container {
-margin-bottom: 0px !important;
+/* About section */
+#about {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
-.container h3 {
-text-align: center;
-color: #000;  
-margin: 15px 15px;
+.contain {
+  padding: 64px;
+  background-color: #f1f1f1;
 }
-.row h5 {
-margin:10px 10px;
-text-align: center;
-color: #000;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}  
+.large-font {
+  font-size: 52px;
 }
-.row p {
-color: #000;  
-margin-top: 15px;
+.info {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
-.col-md-4 img {
-margin: 15px 115px 15px 115px;
-padding-right: 0px;
-width: 40%;
-object-position: center
+.para {
+  font-size: 20px;
+  font-weight: normal;
 }
-#html-logo {
-padding-bottom: 2rem;
+.bout h2 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
 }
-#mysql-logo {
-padding-bottom: 2.9rem;
+.skill {
+  padding: 5px auto 10px;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px auto 20px;
+}
+.progress-bar {
+  background-color: #393e46 !important;
+}
+.progress {
+  margin-bottom: 10px;
+  height: 30px;
+  text-align: right; /* Right-align text */
+  color: white; /* White text color */
+}
+.a1 {
+  width: 95%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.a2 {
+  width: 45%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.a3 {
+  width: 65%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.a4 {
+  width: 75%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.a5 {
+  width: 85%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.tex {
+  font-size: 20px;
+  margin-bottom: 0px;
+} 
+.left {
+  padding-left: 90px;
 }

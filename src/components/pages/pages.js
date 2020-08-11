@@ -1,15 +1,12 @@
 import React from 'react';
 import Header from '../header';
-//import Main from '../main';
 import Footer from '../footer';
 import Aboutme from '../aboutme';
 import Skills from '../skills';
-import Portfolio from '../portfolio';
+import Projects from '../projects';
 import Contacts from '../contact';
-import Blog from '../blog';
 import ExtraFooter from '../extrafooter';
 import Carousel from '../carousel';
-import VerticalLinearStepper from '../stepper';
 
 const HomePage = () => {
     return(
@@ -26,28 +23,18 @@ const AboutmePage = () => {
         <div>
             <Header />
             <Aboutme />
-            <VerticalLinearStepper />
             <Footer />
         </div>
-    )
-}
-const SkillsPage = () => {
-    return(
-        <div>
-            <Header />
-            <Skills />
-            <ExtraFooter />
-        </div>
-        
     )
 }
 
-const PortfolioPage = () => {
+const ProjectsPage = () => {
     return(
         <div>
             <Header />
-            <Portfolio />
-            <Footer />
+            <Projects />
+            <Skills />
+            <ExtraFooter />
         </div>
     )
 }
@@ -62,14 +49,4 @@ const ContactsPage = () => {
     )
 }
 
-const BlogPage = () => {
-    return(
-        <div>
-            <Header />
-            <Blog />
-            <Footer />
-        </div>
-    )
-}
-
-export {HomePage, AboutmePage, SkillsPage, PortfolioPage, ContactsPage, BlogPage};
+export {HomePage, AboutmePage, ProjectsPage, ContactsPage };

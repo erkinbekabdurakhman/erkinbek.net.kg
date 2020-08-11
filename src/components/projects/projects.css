@@ -1,0 +1,19 @@
+.dev-card .card:hover {
+  box-shadow: 0px 6px 6px #00000029;
+  transition: 0.8s;
+}
+.dev-card .card {
+  transition: 0.8s;
+}
+.dev-card .card p {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+.card img {
+  height: 80%;
+}
+.card-img-top {
+  flex-shrink: 0;
+  width: 100%;
+}

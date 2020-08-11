@@ -1,35 +1,41 @@
 import React from 'react';
 import {BrowserRouter as Router, Route,  Switch } from "react-router-dom";
-import {HomePage, AboutmePage, SkillsPage, PortfolioPage, ContactsPage, BlogPage} from '../pages';
+import {HomePage, AboutmePage, ProjectsPage, ContactsPage } from '../pages';
+import ReactGA from 'react-ga';
+
+import { createBrowserHistory } from 'history';
+
+const trackingId = "UA-175187485-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
 
 
-class App extends React.Component {
-  render(){
-    return (
-      <Router>
-        <Switch>
-          <Route path="/blog">
-            <BlogPage />
-          </Route>
-          <Route path="/aboutme">
-            <AboutmePage />
-          </Route>
-          <Route path="/skills">
-            <SkillsPage />
-          </Route>
-          <Route path="/portfolio">
-            <PortfolioPage />
-          </Route>
-          <Route path="/contacts">
-            <ContactsPage />
-          </Route>
-          <Route path="/">
-            <HomePage />
-          </Route>
-        </Switch>
-      </Router>
-    );
-  }
+const history = createBrowserHistory();
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
+const App = () => {
+  return (
+    <Router history={history}>
+      <Switch>
+        <Route path="/aboutme">
+          <AboutmePage />
+        </Route>
+        <Route path="/projects">
+          <ProjectsPage />
+        </Route>
+        <Route path="/contacts">
+          <ContactsPage />
+        </Route>
+        <Route path="/">
+          <HomePage />
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
 
 export default App;

@@ -1,32 +1,28 @@
 import React from 'react';
 import './header.css';
-import Icon from '../images/flavicon.ico';
 import { Link } from 'react-router-dom';
 
-class Header extends React.Component {
-    render() {
-        return (
-            <div className="header"> 
-                <nav className="navbar navbar-expand-lg navbar-light">
-                    <a className="navbar-brand" href="/#">
-                    <img src={Icon} alt="logo" width="35" height="35" />
-                    </a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav ml-auto text-right">
-                            <Link className="nav-item nav-link" to="/">Home</Link>
-                            <Link className="nav-item nav-link" to="/aboutme">About me</Link>
-                            <Link className="nav-item nav-link" to="/skills">Skills</Link>
-                            <Link className="nav-item nav-link" to="/portfolio">Portfolio</Link>
-                            <Link className="nav-item nav-link" to="/blog">Blog</Link>
-                            <Link className="nav-item nav-link" to="/contacts">Contacts</Link>
-                        </div>
+const Header = () => {
+    return (
+        <div className="header"> 
+            <nav className="navbar navbar-expand-lg navbar-light">
+                <Link className="navbar-brand" to="/">
+                    ERKINBEK
+                </Link>
+                <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <i className="fa fa-bars" ></i>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div className="navbar-nav ml-auto text-right">
+                        <Link className="nav-item nav-link" to="/">Home</Link>
+                        <Link className="nav-item nav-link" to="/aboutme">About me</Link>
+                        <Link className="nav-item nav-link" to="/projects">Projects</Link>
+                        <Link className="nav-item nav-link" to="/contacts">Contacts</Link>
                     </div>
-                </nav>
-            </div>
-        )
-    }
-} 
+                </div>
+            </nav>
+        </div>
+    )
+}
+ 
 export default Header;
