@@ -21,18 +21,10 @@ const App = () => {
   return (
     <Router history={history}>
       <Switch>
-        <Route path="/aboutme">
-          <AboutmePage />
-        </Route>
-        <Route path="/projects">
-          <ProjectsPage />
-        </Route>
-        <Route path="/contacts">
-          <ContactsPage />
-        </Route>
-        <Route path="/">
-          <HomePage />
-        </Route>
+        <Route exact path="/contacts" component={ContactsPage} />
+        <Route exact path="/projects" component={ProjectsPage} />
+        <Route exact path="/aboutme" component={AboutmePage} />
+        <Route exact path="/" component={HomePage} /> 
       </Switch>
     </Router>
   );

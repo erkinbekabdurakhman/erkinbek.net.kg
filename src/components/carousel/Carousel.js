@@ -13,10 +13,11 @@ const Carousel = () => {
                         <div className="row">
                             <div className="col-md-6">
                                 <h1>Developing websites</h1>
-                                <p>It is important to let people to know who you are and 
-                                    and what you do for them when they visit your website. I will create
-                                    an interesting, memorable and engaging website with user
-                                    friendliness interface.
+                                <p>Main tasks: increasing sales with the help of website,
+                                    establishing customer feedback, business process automation.
+                                    Contact with the target audience, providing it with the necessary 
+                                    and relevant information, operational interaction with customers,
+                                     partners.
                                 </p>
                             </div>
                             <div className="col-md-6">
@@ -41,7 +42,7 @@ const Carousel = () => {
                                     such as classes overview, booking from mobile and important
                                     service updates, while enabling easy customer feedback and 
                                     one-to-one chat. I will make a great looking, cross-platform app
-                                    with using latest technology. 
+                                    with modern technology. 
                                 </p>
                             </div>
                         </div>
